@@ -8230,8 +8230,11 @@
             </ElseifSequence>
             <ElseSequence id="_1ok8">
               <MouseEventStep clicks="1" client="$(client)"
-                              component="buttonOK" event="MOUSE_MPRC"
-                              id="_1pCO" modifiers="16"/>
+                              component="dialogSNAP_-_Open_Product.buttonOpen"
+                              event="MOUSE_MPRC" id="_1sZY" modifiers="16"/>
+              <MouseEventStep clicks="1" client="$(client)"
+                              component="buttonOK" disabled="true"
+                              event="MOUSE_MPRC" id="_1pCO" modifiers="16"/>
             </ElseSequence>
           </IfSequence>
         </Procedure>
